@@ -1,30 +1,66 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🧊 Smart Inventory Manager
 
-## Getting Started
+A retail-focused web dashboard designed to help store managers minimize perishable inventory loss through **real-time risk alerts**, **discount recommendations**, and **procurement insights**.
 
-First, run the development server:
+> 🏆 Built for the [Walmart Sparkathon 2025](https://...) under the theme **"Transforming Retail Supply Chains"**
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Overview
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Retailers, especially in grocery and FMCG, often suffer massive losses due to unsold **perishable goods**. Our Smart Inventory Manager:
+- Tracks expiry and sales velocity
+- Detects **high-risk items** that may expire before selling
+- Suggests **timely discount strategies**
+- Recommends **reorder quantities** for fast-selling items
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+📈 Result: Reduced waste, increased revenue, and smarter supply chain operations.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🔧 Features
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### ✅ Add & Track Inventory
+- Input product name, category, expiry date, stock, sales/day, cost & selling price
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 🚨 Risk Alerts
+- Detects perishables that will expire before being sold
+- Flags high-risk items with **potential loss estimates**
+
+### 💡 Discount Suggestions *(Planned)*
+- Calculates optimal discounts to boost clearance
+- Estimates **loss prevention impact**
+
+### 📦 Procurement Recommendations
+- Identifies items likely to sell out
+- Recommends reorder quantity & expected revenue
+
+### 📤 Export Options
+- Download inventory & alert reports in **CSV / PDF**
+
+### 🧑‍💼 Admin Dashboard (Role-based UI)
+- Admin features (add/edit products, override alerts)
+
+---
+
+## 🖼️ UI Preview
+
+![Dashboard Preview](./assets/dashboard-preview.png)
+
+---
+
+## 🧠 Tech Stack
+
+| Layer        | Tools Used                          |
+|--------------|-------------------------------------|
+| Frontend     | React + Tailwind CSS                |
+| Backend      | Node.js / Express       |
+| Database     | MongoDB *(or JSON mock data)*       |
+| Charts       | Chart.js / Recharts *(planned)*     |
+| Exporting    | jsPDF, react-csv                    |
+
+---
+
+## 💡 How It Works (Logic Summary)
+
+Will add soon
