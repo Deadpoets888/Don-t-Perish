@@ -1,13 +1,13 @@
-# 🧊 Smart Inventory Manager
+# Smart Inventory Manager
 
 A retail-focused web dashboard designed to help store managers minimize **perishable inventory losses** through real-time **risk alerts**, **discount recommendations**, and **procurement insights**.
 
-> 🏆 Built for **Walmart Sparkathon 2025** under the theme  
+>  Built for **Walmart Sparkathon 2025** under the theme  
 > _“Transforming Retail Supply Chains”_
 
 ---
 
-## 🚀 Overview
+##  Overview
 
 Retailers often suffer significant losses due to unsold **perishable goods** like milk, bread, and fresh produce. Our Smart Inventory Manager:
 - Tracks product expiry, stock, and sales velocity
@@ -15,63 +15,63 @@ Retailers often suffer significant losses due to unsold **perishable goods** lik
 - Suggests dynamic discounts to avoid losses
 - Recommends reorder quantities for fast-selling products
 
-📈 The result: reduced waste, smarter shelf rotation, and increased revenue.
+The result: reduced waste, smarter shelf rotation, and increased revenue.
 
 ---
 
-## 🔧 Features
+## Features
 
-### ✅ Add & Track Products
+###  Add & Track Products
 - Input product info: name, category, expiry, sales/day, pricing
 
-### 🚨 Risk Alerts
+###  Risk Alerts
 - Detects products that will expire before being sold
 - Shows estimated loss and urgency badges
 
-### 💡 Discount Recommendations *(Planned)*
+### Discount Recommendations *(Planned)*
 - Suggests markdown % and expected sales boost
 - Aims to clear stock before expiry
 
-### 📦 Procurement Recommendations
+### Procurement Recommendations
 - Highlights fast-moving items about to run out
 - Recommends reorder quantity with projected revenue
 
-### 📤 Export Tools
+###  Export Tools
 - Export full inventory and alert data to **CSV/PDF**
 
-### 🧑‍💼 Admin Mode
-- Role-based access: edit permissions for admins
+### 🧑‍💼Admin Mode
+- Role-based access: edit permissions for admins and staff as well.
 
 ---
 
-## 🖼️ UI Previews
+##  UI Previews
 
-### 🔍 Risk Alerts
+###  Risk Alerts
 ![Risk Alerts](./assets/Screenshot%202025-07-12%20221259.png)
 
 ---
 
-### 📦 Procurement Recommendations
+### Procurement Recommendations
 ![Procurement Recommendations](./assets/Screenshot%202025-07-12%20221314.png)
 
 ---
 
-### 📊 Analytics Dashboard
+### Analytics Dashboard
 ![Analytics Dashboard](./assets/Screenshot%202025-07-12%20221356.png)
 
 ---
 
-### 🧾 Discount Suggestions
+###  Discount Suggestions
 ![Discount Suggestions](./assets/Screenshot%202025-07-12%20221452.png)
 
 ---
 
-### ➕ Add Product Form
+### Add Product Form
 ![Add Product](./assets/Screenshot%202025-07-12%20221536.png)
 
 ---
 
-## 🧠 Tech Stack
+##  Tech Stack
 
 | Layer     | Tools Used         |
 |-----------|--------------------|
@@ -83,6 +83,6 @@ Retailers often suffer significant losses due to unsold **perishable goods** lik
 
 ---
 
-## 🔢 Logic Overview
+##  Logic Overview
 
 Will add soon
