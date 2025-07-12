@@ -1,66 +1,88 @@
 # 🧊 Smart Inventory Manager
 
-A retail-focused web dashboard designed to help store managers minimize perishable inventory loss through **real-time risk alerts**, **discount recommendations**, and **procurement insights**.
+A retail-focused web dashboard designed to help store managers minimize **perishable inventory losses** through real-time **risk alerts**, **discount recommendations**, and **procurement insights**.
 
-> 🏆 Built for the [Walmart Sparkathon 2025](https://...) under the theme **"Transforming Retail Supply Chains"**
+> 🏆 Built for **Walmart Sparkathon 2025** under the theme  
+> _“Transforming Retail Supply Chains”_
 
 ---
 
 ## 🚀 Overview
 
-Retailers, especially in grocery and FMCG, often suffer massive losses due to unsold **perishable goods**. Our Smart Inventory Manager:
-- Tracks expiry and sales velocity
-- Detects **high-risk items** that may expire before selling
-- Suggests **timely discount strategies**
-- Recommends **reorder quantities** for fast-selling items
+Retailers often suffer significant losses due to unsold **perishable goods** like milk, bread, and fresh produce. Our Smart Inventory Manager:
+- Tracks product expiry, stock, and sales velocity
+- Detects high-risk items likely to expire before sale
+- Suggests dynamic discounts to avoid losses
+- Recommends reorder quantities for fast-selling products
 
-📈 Result: Reduced waste, increased revenue, and smarter supply chain operations.
+📈 The result: reduced waste, smarter shelf rotation, and increased revenue.
 
 ---
 
 ## 🔧 Features
 
-### ✅ Add & Track Inventory
-- Input product name, category, expiry date, stock, sales/day, cost & selling price
+### ✅ Add & Track Products
+- Input product info: name, category, expiry, sales/day, pricing
 
 ### 🚨 Risk Alerts
-- Detects perishables that will expire before being sold
-- Flags high-risk items with **potential loss estimates**
+- Detects products that will expire before being sold
+- Shows estimated loss and urgency badges
 
-### 💡 Discount Suggestions *(Planned)*
-- Calculates optimal discounts to boost clearance
-- Estimates **loss prevention impact**
+### 💡 Discount Recommendations *(Planned)*
+- Suggests markdown % and expected sales boost
+- Aims to clear stock before expiry
 
 ### 📦 Procurement Recommendations
-- Identifies items likely to sell out
-- Recommends reorder quantity & expected revenue
+- Highlights fast-moving items about to run out
+- Recommends reorder quantity with projected revenue
 
-### 📤 Export Options
-- Download inventory & alert reports in **CSV / PDF**
+### 📤 Export Tools
+- Export full inventory and alert data to **CSV/PDF**
 
-### 🧑‍💼 Admin Dashboard (Role-based UI)
-- Admin features (add/edit products, override alerts)
+### 🧑‍💼 Admin Mode
+- Role-based access: edit permissions for admins
 
 ---
 
-## 🖼️ UI Preview
+## 🖼️ UI Previews
 
-![Dashboard Preview](./assets/dashboard-preview.png)
+### 🔍 Risk Alerts
+![Risk Alerts](./assets/Screenshot%202025-07-12%20221259.png)
+
+---
+
+### 📦 Procurement Recommendations
+![Procurement Recommendations](./assets/Screenshot%202025-07-12%20221314.png)
+
+---
+
+### 📊 Analytics Dashboard
+![Analytics Dashboard](./assets/Screenshot%202025-07-12%20221356.png)
+
+---
+
+### 🧾 Discount Suggestions
+![Discount Suggestions](./assets/Screenshot%202025-07-12%20221452.png)
+
+---
+
+### ➕ Add Product Form
+![Add Product](./assets/Screenshot%202025-07-12%20221536.png)
 
 ---
 
 ## 🧠 Tech Stack
 
-| Layer        | Tools Used                          |
-|--------------|-------------------------------------|
-| Frontend     | React + Tailwind CSS                |
-| Backend      | Node.js / Express       |
-| Database     | MongoDB *(or JSON mock data)*       |
-| Charts       | Chart.js / Recharts *(planned)*     |
-| Exporting    | jsPDF, react-csv                    |
+| Layer     | Tools Used         |
+|-----------|--------------------|
+| Frontend  | React + TailwindCSS |
+| Backend   | Next.js App Router (API Routes) |
+| Storage   | JSON (for demo); MongoDB *(planned)* |
+| Exporting | `react-csv`, `jsPDF` |
+| Styling   | Tailwind CSS       |
 
 ---
 
-## 💡 How It Works (Logic Summary)
+## 🔢 Logic Overview
 
 Will add soon
